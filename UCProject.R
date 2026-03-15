@@ -4,6 +4,6 @@ library(dplyr)
 library(readr)
 
 board <- "pol"
-url <- paste0("https://a.4cdn.org/", board, "/catalog.json")
-
+url <- ("https://a.4cdn.org/pol/catalog.json")
+# Or should we do "https://boards.4chan.org/pol/"
 response <- GET(url)
